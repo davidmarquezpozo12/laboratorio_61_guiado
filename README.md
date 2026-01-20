@@ -1,27 +1,27 @@
-# Laboratorio 62: Semáforo Tricolor Controlado por Voz con AssemblyAI
+# Laboratorio 62 – Semáforo por Voz
+
 ## Descripción
-Aplicación de control remoto de un semáforo industrial tricolor simulado
-mediante reconocimiento de voz en tiempo real usando AssemblyAI como motor
-de transcripción cloud.
-## Objetivo Educativo
-Integrar reconocimiento de voz online (AssemblyAI) con interfaz gráfica
-(Tkinter) para controlar un semáforo industrial tricolor simulado,
-reforzando conceptos de automatización en Industria 4.0.
-## Comandos Disponibles
-- "enciende luz roja" → Enciende solo la luz roja
-- "enciende luz amarilla" → Enciende solo la luz amarilla
-- "enciende luz verde" → Enciende solo la luz verde
-- "apaga todas las luces" → Apaga todas las luces
-- "salir" → Cierra la aplicación
+Aplicación en Python que simula un semáforo tricolor controlado por comandos de voz utilizando AssemblyAI para el reconocimiento de voz y Tkinter para la interfaz gráfica.
+
+## Funcionalidad
+- Escucha comandos de voz desde el micrófono  
+- Convierte la voz a texto usando AssemblyAI  
+- Controla las luces del semáforo según el comando recibido  
+
+## Comandos de Voz
+- "enciende luz roja"
+- "enciende luz amarilla"
+- "enciende luz verde"
+- "apaga todas las luces"
+- "salir"
+
+## Requisitos
+- Python 3.8 o superior  
+- Micrófono funcional  
+- Conexión a internet  
+- Cuenta en AssemblyAI con API Key válida  
+
 ## Instalación
 1. Instalar dependencias:
- pip install -r requirements.txt
-2. Configurar API key:
- $env:AAI_API_KEY="tu_clave_api"
-3. Ejecutar la aplicación:
- python main.py
-## Requisitos
-- Python 3.8+
-- Micrófono funcional
-- Conexión a internet (para AssemblyAI)
-- Cuenta en AssemblyAI con API key válida
+   ```bash
+   pip install -r requirements.txt
